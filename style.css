@@ -1352,7 +1352,7 @@ body{
     color: #001a2e;
 }
 
-#center {
+/* #center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1432,7 +1432,7 @@ body{
 	100% {
 		transform: translate(-50%, -50%) rotate(315deg);
 	}
-}
+} */
 
 @media screen and (max-width: 600px) {
     /* Hero Section small */
