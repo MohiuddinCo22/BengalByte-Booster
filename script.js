@@ -1,104 +1,104 @@
 
 
-// var tl = gsap.timeline()
+var tl = gsap.timeline()
 
-// tl.from(".h-page-1 img",{
-//   y:-100,
-//   duration:1,
-//   delay:0.5,
-//   opacity:0,
-//   stagger:0.2
-// })
+ tl.from(".h-page-1 img",{
+   y:-100,
+   duration:1,
+   delay:0.5,
+     opacity:0,
+ stagger:0.2
+ })
 
-// tl.from(".h-page-2 h1,.h-page-2 h2",{
-//   y:100,
-//   opacity:0,
-//   stagger:0.4
-// })
+ tl.from(".h-page-2 h1,.h-page-2 h2",{
+   y:100,
+   opacity:0,
+   stagger:0.4
+ })
 
-// tl.from(".h-page-2 h5",{
-//   scale:0,
-//   opacity:0
-// })
-// tl.to("h5",{
-//   y:40,
-//   repeat:-1,
-//   duration:1
-// })
+ tl.from(".h-page-2 h5",{
+   scale:0,
+   opacity:0
+ })
+ tl.to("h5",{
+   y:40,
+   repeat:-1,
+   duration:1
+ })
 
-// tl.from(".section-heading h4,.section-heading h2,.about-heading",{
-//   x:-500,
-//   opacity:0,
-//   duration:1,
-//   stagger:0.5,
-//   scrollTrigger:{
-//     trigger:".section-heading h4,.section-heading h2",
-//     scroller:"body",
-//     // markers:true,
-//     start:"top 50%",
-//     end:"top 20%",
-//     scrub:5
-//   }
-// })
+ tl.from(".section-heading h4,.section-heading h2,.about-heading",{
+   x:-500,
+   opacity:0,
+   duration:1,
+   stagger:0.5,
+   scrollTrigger:{
+       trigger:".section-heading h4,.section-heading h2",
+     scroller:"body",
+     // markers:true,
+     start:"top 50%",
+     end:"top 20%",
+     scrub:5
+   }
+ })
 
-// tl.from(".about-left .main-ab-para,.about-left .about-para,.about-left .Offer,.about-left .offer-para",{
-//   x:-500,
-//   opacity:0,
-//   duration:1,
-//   stagger:0.3,
-//   scrollTrigger:{
-//     trigger:".about-left .main-ab-para,.about-left .about-para,.about-left .Offer,.about-left .offer-para",
-//     scroller:"Body",
-//     // markers:true,
-//     start:"top 50%",
-//     end:"top 20%",
-//     scrub:5
-//   }
-// })
+tl.from(".about-left .main-ab-para,.about-left .about-para,.about-left .Offer,.about-left .offer-para",{
+  x:-500,
+  opacity:0,
+  duration:1,
+  stagger:0.3,
+  scrollTrigger:{
+    trigger:".about-left .main-ab-para,.about-left .about-para,.about-left .Offer,.about-left .offer-para",
+    scroller:"Body",
+    // markers:true,
+    start:"top 50%",
+    end:"top 20%",
+    scrub:5
+  }
+})
 
-// tl.from(".about-left .choose-head,.about-left .choose",{
-//   x:-500,
-//   opacity:0,
-//   duration:1,
-//   stagger:0.3,
-//   scrollTrigger:{
-//     trigger:".about-left .choose-head,.about-left .choose",
-//     scroller:"Body",
-//     // markers:"true",
-//     start:"top 70%",
-//     end:"top 20%",
-//     scrub:5
-//   }
-// })
+tl.from(".about-left .choose-head,.about-left .choose",{
+  x:-500,
+  opacity:0,
+  duration:1,
+  stagger:0.3,
+  scrollTrigger:{
+    trigger:".about-left .choose-head,.about-left .choose",
+    scroller:"Body",
+    // markers:"true",
+    start:"top 70%",
+    end:"top 20%",
+    scrub:5
+  }
+})
 
-// tl.from(".about-left .read-more",{
-//   x:-500,
-//   opacity:0,
-//   duration:1,
-//   stagger:0.2,
-//   scrollTrigger:{
-//     trigger:".about-left .read-more",
-//     scroller:"Body",
-//     // markers:"true",
-//     start:"top 70%",
-//     end:"top 20%",
-//     scrub:5
-//   }
-// })
+tl.from(".about-left .read-more",{
+  x:-500,
+  opacity:0,
+  duration:1,
+  stagger:0.2,
+  scrollTrigger:{
+    trigger:".about-left .read-more",
+    scroller:"Body",
+    // markers:"true",
+    start:"top 70%",
+    end:"top 20%",
+    scrub:5
+  }
+})
 
-// tl.from(".about-right .about-img",{
-//   x:500,
-//   opacity:0,
-//   duration:1,
-//   stagger:0.3,
-//   scrollTrigger:{
-//     trigger:".about-right .about-img",
-//     scroller:"Body",
-//     start:"top 50%",
-//     end:"top 20%",
-//     scrub:5
-//   }
-// })
+tl.from(".about-right .about-img",{
+  x:500,
+  opacity:0,
+  duration:1,
+  stagger:0.3,
+  scrollTrigger:{
+    trigger:".about-right .about-img",
+    scroller:"Body",
+    start:"top 50%",
+    end:"top 20%",
+    scrub:5
+  }
+})
 
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("progress");
