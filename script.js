@@ -13,7 +13,7 @@ var tl = gsap.timeline()
  tl.from(".h-page-2 h1,.h-page-2 h2",{
    y:100,
    opacity:0,
-   stagger:0.4
+   stagger:0.2
  })
 
  tl.from(".h-page-2 h5",{
