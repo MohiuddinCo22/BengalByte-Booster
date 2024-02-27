@@ -157,8 +157,8 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-var loader = document.getElementById("center");
+// var loader = document.getElementById("center");
 
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
+// window.addEventListener("load", function(){
+//     loader.style.display = "none";
+// })
