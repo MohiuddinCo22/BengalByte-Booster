@@ -1709,7 +1709,7 @@ body{
     }
 
     .copyright{
-        height: 10vh;
+        height: 15vh;
         padding: 1rem;
         justify-content: center;
         align-items: center;
@@ -1720,6 +1720,7 @@ body{
         font-size: 1.3rem;
         /* padding: 1rem; */
         line-height: 1.6;
+	    margin-bottom: 2rem;
     }
     /* Footer Section End */
 
