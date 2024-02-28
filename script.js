@@ -2,7 +2,7 @@
 
 var tl = gsap.timeline()
 
- tl.from("#header .nav_logo, #header .nav-btn",{
+ tl.from("#header .nav_logo",{
    y:-100,
    duration:1,
    delay:0.5,
